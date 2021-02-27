@@ -12,6 +12,8 @@ namespace ComplexCalculation
             Assembly asm = null;
             string assemblyName = "Complex.dll";
 
+            Console.WriteLine(assemblyName);
+
             try
             {
                  asm = Assembly.LoadFile(Path.GetFullPath(assemblyName));
